@@ -14,7 +14,13 @@ while (isSunk == false) {
     if (guess < 0 || guess > 6){
         alert("Please enter a valid cell number!");
     } else {
-        guesses = guesses + 1;}
+        //* If the user guesses the same number
+        //* ale
+        guesses = guesses + 1;
+    
+    
+    }
+
     if (guess == location1 || guess == location2 || guess == location3){
             alert("HIT !!");
             hits = hits + 1;    
